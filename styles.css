@@ -275,21 +275,35 @@ body {
 }
 
 .team__social-name {
-
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
 }
 
 .team__social-position {
-
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #C4C4C4;
 }
 
 .team__social-icon-wrapper {
-
+    margin-bottom: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center; 
 }
 
 .team__social-icon-anchor {
-
+    text-decoration: none;
 }
 
 .team__social-date {
-
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #C4C4C4;
 }
