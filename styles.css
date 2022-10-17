@@ -193,11 +193,15 @@ body {
 
 .gallery__image-container {
     position: relative;
+    cursor: pointer;
 }
 
 .gallery__image-container:first-child {
     grid-row: span 2;
+}
 
+.gallery__image-container:hover .gallery__image-overlay {
+    opacity: 1;
 }
 
 .gallery__image {
@@ -212,5 +216,22 @@ body {
     top: 0;
     width: 100%;
     height: 100%;
-    display: none;
+    opacity: 0;
+    transition: opacity .2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery__image-overlay-image-wrapper {
+    background-color: rgba(46, 76, 255, 1);
+    padding: 15px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.gallery__image-overlay-image {
+    width: 20px;
+    height: 20px;
 }
