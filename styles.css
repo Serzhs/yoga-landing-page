@@ -102,6 +102,23 @@ body {
     gap: 40px;
 }
 
+.section {
+    padding-bottom: 140px;
+}
+
+.section__container {
+    max-width: 1223px;
+    margin: 0 auto;
+}
+
+.section__header {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    color: black;
+    padding-bottom: 135px;
+    text-align: center
+}
 
 .classes {
     padding: 140px 0;
@@ -167,24 +184,6 @@ body {
     left: 20px;
 }
 
-.gallery {
-    padding-bottom: 140px;
-}
-
-.gallery__container {
-    max-width: 1223px;
-    margin: 0 auto;
-}
-
-.gallery__header {
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 60px;
-    color: black;
-    padding-bottom: 135px;
-    text-align: center
-}
-
 .gallery__image-wrapper {
     display: grid;
     grid-template-columns: 475px 350px 350px;
@@ -206,6 +205,7 @@ body {
 
 .gallery__image {
     width: 100%;
+    height: 100%;
 }
 
 
@@ -234,24 +234,6 @@ body {
 .gallery__image-overlay-image {
     width: 20px;
     height: 20px;
-}
-
-.team {
-    padding-bottom: 140px;
-}
-
-.team__container {
-    max-width: 1223px;
-    margin: 0 auto;
-}
-
-.team__header {
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 60px;
-    color: black;
-    padding-bottom: 135px;
-    text-align: center
 }
 
 .team__container-social {
@@ -306,24 +288,6 @@ body {
     font-size: 14px;
     line-height: 16px;
     color: #C4C4C4;
-}
-
-.pricing {
-    padding-bottom: 140px;
-}
-
-.pricing__container {
-    max-width: 1223px;
-    margin: 0 auto;
-}
-
-.pricing__header {
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 60px;
-    color: black;
-    padding-bottom: 135px;
-    text-align: center
 }
 
 .pricing__list {
@@ -391,4 +355,51 @@ body {
     width: 100%;
     padding: 20px 10px;
     border-radius: 10px 10px 0 0;
+}
+
+
+.image__wrapper {
+    width: 500px;
+    height: 200px;
+    background-color: gold;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.news {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+}
+
+.news__card {
+    border-radius: 10px;
+    position: relative;
+}
+
+.news__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.news__card-content {
+    position: absolute;
+    left: 30px;
+    bottom: 0;
+}
+
+.news__card-header {
+
+}
+
+.news__card-paragraph {
+
+}
+
+.news__card-button {
+
 }
