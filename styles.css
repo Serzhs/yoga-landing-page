@@ -378,6 +378,7 @@ body {
 .news__card {
     border-radius: 10px;
     position: relative;
+    overflow: hidden;
 }
 
 .news__image {
@@ -389,17 +390,77 @@ body {
 .news__card-content {
     position: absolute;
     left: 30px;
-    bottom: 0;
+    bottom: 50px;
+    z-index: 2;
 }
 
 .news__card-header {
-
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
 }
 
 .news__card-paragraph {
-
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
 }
 
 .news__card-button {
-
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    color: #2f6ee2;
+    cursor: pointer;
 }
+
+.news__overlay {
+    background-color: #000000;
+    opacity:0.3;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    padding: 35px 45px;
+}
+
+.question__heading {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 25px;
+ }
+
+ .question__paragraph {
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(196, 196, 196, 0.83);
+ }
+
+ .question__button {
+    border-radius: 10px;
+    background-color: #2f6ee2;
+    padding: 15px 30px;
+    border: none;
+    color: #ffffff; 
+    cursor: pointer;
+ }
