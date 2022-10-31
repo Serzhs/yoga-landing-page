@@ -73,6 +73,14 @@ body {
     gap: 50px;
 }
 
+@media screen and (max-width:450px) {
+    .header__nav {
+       flex-direction: column;
+       text-align: center;
+       gap: 15px;
+    }
+}
+
 .header__nav-item {
     text-decoration:none;
     color: white;
@@ -160,6 +168,10 @@ body {
 
 .classes {
     padding: 140px 0;
+}
+
+@media screen and (max-width:1200px) {
+
 }
 
 .classes__container {
