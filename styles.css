@@ -170,10 +170,6 @@ body {
     padding: 140px 0;
 }
 
-@media screen and (max-width:1200px) {
-
-}
-
 .classes__container {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -197,6 +193,28 @@ body {
     line-height: 60px;
     color: black;
     padding-bottom: 135px;
+}
+
+@media screen and (max-width:1200px) {
+    .classes {
+        padding: 45px 0 150px 0;
+    }
+
+    .classes__header {
+        text-align: center;
+    }
+
+    .classes__container {
+        grid-template-columns: 100%
+    }
+
+    .classes__image-photo {
+        display: none;
+    }
+
+    .classes__content {
+        padding-left: 0;
+    }
 }
 
 .classes__class-box-container {
