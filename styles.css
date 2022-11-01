@@ -260,7 +260,7 @@ body {
 
 .classes__class-box--inverted {
     background-color: var(--white-accent);
-    color: #2E4CFF;
+    color: var(--blue-accent);
 }
 
 .classes__class-box--low {
