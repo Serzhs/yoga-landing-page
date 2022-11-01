@@ -1,5 +1,6 @@
 :root {
-    --blue-accent: #2f6ee2;
+    /* --blue-accent: #2f6ee2; */
+    --blue-accent: red;
     --white-accent: #fff;
     --black-accent: #000;
 }
@@ -40,7 +41,7 @@ body {
  }
 
 .header {
-    background-color: #2E4CFF;
+    background-color: var(--blue-accent);
     padding-top: 120px;
     padding-bottom: 175px;
 }
@@ -595,7 +596,7 @@ body {
  }
 
  .footer {
-    background-color: #2E4CFF;
+    background-color: var(--blue-accent);
     padding-top: 130px;
     padding-bottom: 70px;
  }
