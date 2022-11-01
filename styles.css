@@ -1,3 +1,8 @@
+:root {
+    --blue-accent: #2f6ee2;
+    --white-accent: #fff;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 * {
@@ -15,22 +20,22 @@ body {
 
 .button {
     border-radius: 10px;
-    color: #ffffff;
+    color: var(--white-accent);
     padding: 15px 30px;
     border: none;
-    background-color: #2f6ee2;
+    background-color: var(--blue-accent);
     cursor: pointer;
  }
 
  .button--secondary {
-    color: #2f6ee2;
-    background-color: #ffffff;
+    color: var(--blue-accent);
+    background-color: var(--white-accent);
  }
 
  .button--outline {
     background-color: transparent;
-    border: 1px solid white;
-    color: white;
+    border: 1px solid var(--white-accent);
+    color: var(--white-accent);
  }
 
 .header {
@@ -82,7 +87,7 @@ body {
 
 .header__nav-item {
     text-decoration:none;
-    color: white;
+    color: var(--white-accent);
     font-style: normal;
     font-size: 18px;
     line-height: 21px;
@@ -111,7 +116,7 @@ body {
 
 .header__heading {
     padding-bottom: 50px;
-    color: white;
+    color: var(--white-accent);
     font-weight: 500;
     font-size: 50px;
     line-height: 60px;
@@ -119,7 +124,7 @@ body {
 
 .header__paragraph {
     padding-bottom: 65px;
-    color:white;
+    color:var(--white-accent);
     font-weight: 400;
     font-size: 20px;
     line-height: 40px;
@@ -239,11 +244,11 @@ body {
 }
 
 .classes__class-box {
-    background-color: #2E4CFF;
+    background-color: var(--blue-accent);
     border-radius: 30px;
     width: 220px;
     height: 220px;
-    color: white;
+    color: var(--white-accent);
     font-weight: 500;
     font-size: 25px;
     line-height: 29px;
@@ -252,7 +257,7 @@ body {
 }
 
 .classes__class-box--inverted {
-    background-color: white;
+    background-color: var(--white-accent);
     color: #2E4CFF;
 }
 
@@ -368,7 +373,7 @@ body {
 }
 
 .team__container-social-person {
-    background-color: #FFFFFF;
+    background-color: var(--white-accent);
     box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
     text-align: center;
@@ -423,7 +428,7 @@ body {
 }
 
 .pricing__pricing-plan {
-    background-color: #FFFFFF;
+    background-color: var(--white-accent);
     box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.05); 
     border-radius: 10px;
     padding: 70px 15px;
@@ -463,8 +468,8 @@ body {
 }
 
 .pricing__popular {
-    background-color: #2f6ee2;
-    color: #ffffff;
+    background-color: var(--blue-accent);
+    color: var(--white-accent);
     position: absolute;
     left: 0;
     top: -60px;
@@ -531,7 +536,7 @@ body {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
-    color: #FFFFFF;
+    color: var(--white-accent);
     margin-bottom: 10px;
 }
 
@@ -539,7 +544,7 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-    color: #FFFFFF;
+    color: var(--white-accent);
     margin-bottom: 20px;
 }
 
@@ -560,7 +565,7 @@ body {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: var(--white-accent);
     box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.05);
     border-radius: 25px;
     padding: 35px 45px;
@@ -609,7 +614,7 @@ body {
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
-    color: #FFFFFF;
+    color: var(--white-accent);
  }
 
  .footer__nav {
@@ -621,14 +626,14 @@ body {
  .footer__nav-item {
     font-size: 18px;
     line-height: 21px;
-    color: #FFFFFF;
+    color: var(--white-accent);
     text-decoration: none;
  }
 
  .footer__author {
     font-size: 18px;
     line-height: 21px;
-    color: #FFFFFF;
+    color: var(--white-accent);
  }
 
  .footer__social {
