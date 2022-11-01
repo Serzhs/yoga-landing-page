@@ -342,7 +342,7 @@ body {
 }
 
 .gallery__image-overlay-image-wrapper {
-    background-color: rgba(46, 76, 255, 1);
+    background-color: var(--blue-accent);
     padding: 15px;
     border-radius: 100%;
     width: 50px;
